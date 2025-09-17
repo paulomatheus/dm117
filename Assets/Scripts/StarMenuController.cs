@@ -5,8 +5,14 @@ public class StarMenuController : MonoBehaviour
 {
     public void OnStartClick()
     {
-        SceneManager.LoadScene("MenuScene");
+        SceneManager.LoadScene("MainBuilding");
     }
+
+    public void OnCreditsClick()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
 
     public void OnExitClick()
     {
