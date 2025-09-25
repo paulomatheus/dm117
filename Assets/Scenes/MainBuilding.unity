@@ -131,7 +131,7 @@ GameObject:
   - component: {fileID: 20573842}
   m_Layer: 0
   m_Name: Square Wall (1)
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -221,7 +221,7 @@ GameObject:
   - component: {fileID: 22041767}
   m_Layer: 0
   m_Name: Step 7
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -311,7 +311,7 @@ GameObject:
   - component: {fileID: 41351936}
   m_Layer: 0
   m_Name: Step 6
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -440,7 +440,7 @@ GameObject:
   - component: {fileID: 161940687}
   m_Layer: 0
   m_Name: Step 6
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -530,7 +530,7 @@ GameObject:
   - component: {fileID: 168741719}
   m_Layer: 0
   m_Name: Step 5
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -654,7 +654,7 @@ GameObject:
   - component: {fileID: 272796206}
   m_Layer: 0
   m_Name: Step 8
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -744,7 +744,7 @@ GameObject:
   - component: {fileID: 281714376}
   m_Layer: 0
   m_Name: Step 8
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -834,7 +834,7 @@ GameObject:
   - component: {fileID: 291034328}
   m_Layer: 0
   m_Name: Step 8
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -924,7 +924,7 @@ GameObject:
   - component: {fileID: 293725220}
   m_Layer: 0
   m_Name: Step 3
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1014,7 +1014,7 @@ GameObject:
   - component: {fileID: 318209959}
   m_Layer: 0
   m_Name: Step 4
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1143,7 +1143,7 @@ GameObject:
   - component: {fileID: 333812558}
   m_Layer: 0
   m_Name: Step 8
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1270,7 +1270,7 @@ GameObject:
   - component: {fileID: 442803208}
   m_Layer: 0
   m_Name: Step 4
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1360,7 +1360,7 @@ GameObject:
   - component: {fileID: 488439952}
   m_Layer: 0
   m_Name: Step 3
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1587,7 +1587,7 @@ GameObject:
   - component: {fileID: 531212472}
   m_Layer: 0
   m_Name: Step 7
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1677,7 +1677,7 @@ GameObject:
   - component: {fileID: 540708343}
   m_Layer: 0
   m_Name: Step 8
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1767,7 +1767,7 @@ GameObject:
   - component: {fileID: 552902533}
   m_Layer: 0
   m_Name: Step 6
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1871,8 +1871,8 @@ Transform:
   m_GameObject: {fileID: 604454571}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -5.26, y: 0.4690001, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -5.396, y: 0.477, z: 0}
+  m_LocalScale: {x: 0.62965083, y: 0.63791144, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1301732202}
@@ -1947,7 +1947,7 @@ GameObject:
   - component: {fileID: 613764584}
   m_Layer: 0
   m_Name: Step 2
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2121,7 +2121,7 @@ GameObject:
   - component: {fileID: 623127583}
   m_Layer: 0
   m_Name: Step 5
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2348,7 +2348,7 @@ GameObject:
   - component: {fileID: 640323477}
   m_Layer: 0
   m_Name: Step 7
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2577,8 +2577,6 @@ GameObject:
   - component: {fileID: 682857088}
   - component: {fileID: 682857090}
   - component: {fileID: 682857089}
-  - component: {fileID: 682857092}
-  - component: {fileID: 682857091}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2680,9 +2678,9 @@ Transform:
   m_GameObject: {fileID: 682857084}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -7.26, y: -4.71, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: -8.01, y: -4.79, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2765,46 +2763,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 210569d644ed6ff42a639ffa58665f96, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  speed: 5
-  jumpForce: 5
---- !u!95 &682857091
-Animator:
-  serializedVersion: 7
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682857084}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
---- !u!111 &682857092
-Animation:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 682857084}
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Animation: {fileID: 0}
-  m_Animations: []
-  m_WrapMode: 0
-  m_PlayAutomatically: 1
-  m_AnimatePhysics: 0
-  m_UpdateMode: 0
-  m_CullingType: 0
+  speed: 2
+  jumpForce: 2
 --- !u!1 &685358171
 GameObject:
   m_ObjectHideFlags: 0
@@ -2954,7 +2914,7 @@ GameObject:
   - component: {fileID: 688459749}
   m_Layer: 0
   m_Name: Step 6
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3181,7 +3141,7 @@ GameObject:
   - component: {fileID: 727544075}
   m_Layer: 0
   m_Name: Step 3
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3285,8 +3245,8 @@ Transform:
   m_GameObject: {fileID: 732375068}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.2670696, y: -0.5348124, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -1.3312, y: -0.4709, z: 0}
+  m_LocalScale: {x: 0.84360564, y: 0.78240025, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1351744757}
@@ -3400,7 +3360,7 @@ GameObject:
   - component: {fileID: 777324643}
   m_Layer: 0
   m_Name: Step 2
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3527,9 +3487,10 @@ GameObject:
   m_Component:
   - component: {fileID: 796164936}
   - component: {fileID: 796164937}
+  - component: {fileID: 796164938}
   m_Layer: 0
   m_Name: Step 8
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3607,6 +3568,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &796164938
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 796164935}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &802286438
 GameObject:
   m_ObjectHideFlags: 0
@@ -3619,7 +3626,7 @@ GameObject:
   - component: {fileID: 802286440}
   m_Layer: 0
   m_Name: Step 2
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3707,9 +3714,10 @@ GameObject:
   m_Component:
   - component: {fileID: 804626192}
   - component: {fileID: 804626193}
+  - component: {fileID: 804626194}
   m_Layer: 0
   m_Name: Step 7
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3787,6 +3795,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &804626194
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 804626191}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &899588618
 GameObject:
   m_ObjectHideFlags: 0
@@ -3799,7 +3853,7 @@ GameObject:
   - component: {fileID: 899588620}
   m_Layer: 0
   m_Name: Step 7
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3889,7 +3943,7 @@ GameObject:
   - component: {fileID: 909819833}
   m_Layer: 0
   m_Name: Step 2
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3979,7 +4033,7 @@ GameObject:
   - component: {fileID: 938705381}
   m_Layer: 0
   m_Name: Step 3
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4069,7 +4123,7 @@ GameObject:
   - component: {fileID: 988191392}
   m_Layer: 0
   m_Name: Step 1
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4159,7 +4213,7 @@ GameObject:
   - component: {fileID: 1000337971}
   m_Layer: 0
   m_Name: Step 7
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4249,7 +4303,7 @@ GameObject:
   - component: {fileID: 1031308160}
   m_Layer: 0
   m_Name: Step 5
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4339,7 +4393,7 @@ GameObject:
   - component: {fileID: 1033572178}
   m_Layer: 0
   m_Name: Step 5
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4429,7 +4483,7 @@ GameObject:
   - component: {fileID: 1061158055}
   m_Layer: 0
   m_Name: Step 4
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4519,7 +4573,7 @@ GameObject:
   - component: {fileID: 1108183467}
   m_Layer: 0
   m_Name: Step 6
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4609,7 +4663,7 @@ GameObject:
   - component: {fileID: 1126351476}
   m_Layer: 0
   m_Name: Step 1
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4699,7 +4753,7 @@ GameObject:
   - component: {fileID: 1141760044}
   m_Layer: 0
   m_Name: Step 6
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4789,7 +4843,7 @@ GameObject:
   - component: {fileID: 1178451926}
   m_Layer: 0
   m_Name: Step 4
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4879,7 +4933,7 @@ GameObject:
   - component: {fileID: 1190579673}
   m_Layer: 0
   m_Name: Step 8
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4969,7 +5023,7 @@ GameObject:
   - component: {fileID: 1193984074}
   m_Layer: 0
   m_Name: Step 7
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5059,7 +5113,7 @@ GameObject:
   - component: {fileID: 1238127882}
   m_Layer: 0
   m_Name: Step 1
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5149,7 +5203,7 @@ GameObject:
   - component: {fileID: 1242730056}
   m_Layer: 0
   m_Name: Step 1
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5273,7 +5327,7 @@ GameObject:
   - component: {fileID: 1247117381}
   m_Layer: 0
   m_Name: Step 1
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5363,7 +5417,7 @@ GameObject:
   - component: {fileID: 1260295448}
   m_Layer: 0
   m_Name: Step 5
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5453,7 +5507,7 @@ GameObject:
   - component: {fileID: 1270779268}
   m_Layer: 0
   m_Name: Step 2
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5578,7 +5632,7 @@ GameObject:
   - component: {fileID: 1302047432}
   m_Layer: 0
   m_Name: Step 3
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5668,7 +5722,7 @@ GameObject:
   - component: {fileID: 1329754239}
   m_Layer: 0
   m_Name: Step 3
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5758,7 +5812,7 @@ GameObject:
   - component: {fileID: 1337514449}
   m_Layer: 0
   m_Name: Step 7
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6019,9 +6073,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1359126354}
   - component: {fileID: 1359126355}
+  - component: {fileID: 1359126356}
   m_Layer: 0
   m_Name: Step 1
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6099,6 +6154,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1359126356
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359126353}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1375362042
 GameObject:
   m_ObjectHideFlags: 0
@@ -6111,7 +6212,7 @@ GameObject:
   - component: {fileID: 1375362044}
   m_Layer: 0
   m_Name: Step 1
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6475,7 +6576,7 @@ GameObject:
   - component: {fileID: 1473187240}
   m_Layer: 0
   m_Name: Step 1
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6604,7 +6705,7 @@ GameObject:
   - component: {fileID: 1488664984}
   m_Layer: 0
   m_Name: Step 8
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6733,7 +6834,7 @@ GameObject:
   - component: {fileID: 1513314623}
   m_Layer: 0
   m_Name: Step 7
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6823,7 +6924,7 @@ GameObject:
   - component: {fileID: 1521146804}
   m_Layer: 0
   m_Name: Step 3
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6913,7 +7014,7 @@ GameObject:
   - component: {fileID: 1533247566}
   m_Layer: 0
   m_Name: Step 2
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7017,8 +7118,8 @@ Transform:
   m_GameObject: {fileID: 1536851879}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 8.725159, y: -0.5727198, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 8.702, y: -0.468, z: 0}
+  m_LocalScale: {x: 0.7955418, y: 0.7827013, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1351744757}
@@ -7093,7 +7194,7 @@ GameObject:
   - component: {fileID: 1562857640}
   m_Layer: 0
   m_Name: Step 4
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7183,7 +7284,7 @@ GameObject:
   - component: {fileID: 1618663323}
   m_Layer: 0
   m_Name: Step 6
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7273,7 +7374,7 @@ GameObject:
   - component: {fileID: 1646235206}
   m_Layer: 0
   m_Name: Step 5
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7361,9 +7462,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1655275911}
   - component: {fileID: 1655275912}
+  - component: {fileID: 1655275913}
   m_Layer: 0
   m_Name: Step 5
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7441,6 +7543,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1655275913
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1655275910}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1696676794
 GameObject:
   m_ObjectHideFlags: 0
@@ -7453,7 +7601,7 @@ GameObject:
   - component: {fileID: 1696676796}
   m_Layer: 0
   m_Name: Step 6
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7543,7 +7691,7 @@ GameObject:
   - component: {fileID: 1708134482}
   m_Layer: 0
   m_Name: Step 3
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7633,7 +7781,7 @@ GameObject:
   - component: {fileID: 1754960933}
   m_Layer: 0
   m_Name: Step 1
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7721,9 +7869,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1766610992}
   - component: {fileID: 1766610993}
+  - component: {fileID: 1766610994}
   m_Layer: 0
   m_Name: Step 4
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7801,6 +7950,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1766610994
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1766610991}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1782755310
 GameObject:
   m_ObjectHideFlags: 0
@@ -7811,9 +8006,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1782755311}
   - component: {fileID: 1782755312}
+  - component: {fileID: 1782755313}
   m_Layer: 0
   m_Name: Step 3
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7891,6 +8087,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1782755313
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1782755310}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1788725590
 GameObject:
   m_ObjectHideFlags: 0
@@ -8040,7 +8282,7 @@ GameObject:
   - component: {fileID: 1826228579}
   m_Layer: 0
   m_Name: Step 2
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8169,7 +8411,7 @@ GameObject:
   - component: {fileID: 1871873410}
   m_Layer: 0
   m_Name: Step 8
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8257,9 +8499,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1885118554}
   - component: {fileID: 1885118555}
+  - component: {fileID: 1885118556}
   m_Layer: 0
   m_Name: Step 6
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8337,6 +8580,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1885118556
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1885118553}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1 &1887326668
 GameObject:
   m_ObjectHideFlags: 0
@@ -8349,7 +8638,7 @@ GameObject:
   - component: {fileID: 1887326670}
   m_Layer: 0
   m_Name: Step 5
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8478,7 +8767,7 @@ GameObject:
   - component: {fileID: 1917787019}
   m_Layer: 0
   m_Name: Step 5
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8568,7 +8857,7 @@ GameObject:
   - component: {fileID: 1941564385}
   m_Layer: 0
   m_Name: Step 4
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8658,7 +8947,7 @@ GameObject:
   - component: {fileID: 1961469447}
   m_Layer: 0
   m_Name: Step 4
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8748,7 +9037,7 @@ GameObject:
   - component: {fileID: 2036566669}
   m_Layer: 0
   m_Name: Step 4
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8877,7 +9166,7 @@ GameObject:
   - component: {fileID: 2091601622}
   m_Layer: 0
   m_Name: Step 2
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8965,9 +9254,10 @@ GameObject:
   m_Component:
   - component: {fileID: 2139718808}
   - component: {fileID: 2139718809}
+  - component: {fileID: 2139718810}
   m_Layer: 0
   m_Name: Step 2
-  m_TagString: Untagged
+  m_TagString: Ramps
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9045,6 +9335,52 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &2139718810
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2139718807}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
