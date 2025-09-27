@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     Rigidbody2D rb2d; 
     Vector2 input;
     public float speed = 2f;
-    public float jumpForce = 2f;
+    public float jumpForce = 5f;
     bool onGround;
     bool onRamp;
 

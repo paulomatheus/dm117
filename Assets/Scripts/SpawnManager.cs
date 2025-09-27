@@ -4,14 +4,14 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour
 {
     [Header("Configuração dos Personagens")]
-    public GameObject[] characterPrefabs; // Array com os 6 prefabs dos personagens
-    public Transform[] spawnPoints; // 6 SpawnPoints ja criados
+    public GameObject[] characterPrefabs;
+    public Transform[] spawnPoints;
 
     [Header("Identificação do Ladrão")]
     public int thiefCharacterIndex = 0; // Índice do personagem que será o ladrão (0-5)
 
     private List<GameObject> spawnedCharacters = new List<GameObject>();
-    private int currentThiefSpawnIndex; // Qual spawn point tem o ladrão atualmente
+    private int currentThiefSpawnIndex;
 
     void Start()
     {
@@ -20,9 +20,7 @@ public class SpawnManager : MonoBehaviour
 
     public void SpawnCharacters()
     {
-        // Limpa personagens anteriores se existirem
         ClearPreviousCharacters();
-
         // Cria uma lista com os índices dos spawn points (0, 1, 2, 3, 4, 5)
         List<int> availableSpawnIndices = new List<int>();
         for (int i = 0; i < spawnPoints.Length; i++)
@@ -30,7 +28,6 @@ public class SpawnManager : MonoBehaviour
             availableSpawnIndices.Add(i);
         }
 
-        // Embaralha a lista para posições aleatórias
         for (int i = 0; i < availableSpawnIndices.Count; i++)
         {
             int randomIndex = Random.Range(0, availableSpawnIndices.Count);
@@ -39,7 +36,6 @@ public class SpawnManager : MonoBehaviour
             availableSpawnIndices[randomIndex] = temp;
         }
 
-        // Spawna os personagens nas posições embaralhadas
         for (int i = 0; i < characterPrefabs.Length; i++)
         {
             int spawnIndex = availableSpawnIndices[i];
@@ -76,8 +72,6 @@ public class SpawnManager : MonoBehaviour
         }
         spawnedCharacters.Clear();
     }
-
-    // Função para reiniciar o jogo com novas posições aleatórias
     public void RestartGame()
     {
         SpawnCharacters();

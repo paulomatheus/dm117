@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using TMPro; // Importante para TextMeshPro
+using TMPro;
 using System.Collections;
 
 public class NPCBehavior : MonoBehaviour
@@ -10,39 +10,47 @@ public class NPCBehavior : MonoBehaviour
     public bool isThief = false;
 
     [Header("Configuração de UI")]
-    public static GameObject messagePanel; // Painel da mensagem
-    public static TextMeshProUGUI messageText; // Texto da mensagem (TextMeshPro)
-    public static Button continueButton; // Botão para continuar
+    public static GameObject messagePanel; 
+    public static TextMeshProUGUI messageText;
+    public static Button continueButton;
 
     // Referências estáticas para encontrar a UI automaticamente
     private static bool uiReferencesSet = false;
 
+    private void Awake()
+    {
+        ResetUIReferences();
+    }
+
     private void Start()
     {
-        // Configura as referências da UI se ainda não foram configuradas
-        if (!uiReferencesSet)
+        if (!uiReferencesSet || messagePanel == null)
         {
             SetupUIReferences();
         }
 
-        // Adiciona um Collider2D se não tiver
         if (GetComponent<Collider2D>() == null)
         {
             CircleCollider2D collider = gameObject.AddComponent<CircleCollider2D>();
-            collider.isTrigger = true; // Para detectar colisão sem física
+            collider.isTrigger = true;
         }
+    }
+
+    public static void ResetUIReferences()
+    {
+        messagePanel = null;
+        messageText = null;
+        continueButton = null;
+        uiReferencesSet = false;
     }
 
     void SetupUIReferences()
     {
-        // Procura pelos componentes de UI na cena
         messagePanel = GameObject.Find("MessagePanel");
 
         if (messagePanel != null)
         {
-            Debug.Log("MessagePanel encontrado!");
-
-            // Tenta encontrar TextMeshPro primeiro, depois Text legacy
+            messagePanel.SetActive(false);
             messageText = messagePanel.GetComponentInChildren<TextMeshProUGUI>();
             if (messageText == null)
             {
@@ -50,8 +58,7 @@ public class NPCBehavior : MonoBehaviour
                 Text legacyText = messagePanel.GetComponentInChildren<Text>();
                 if (legacyText != null)
                 {
-                    Debug.Log("Usando Text Legacy - considere usar TextMeshPro");
-                    // Vamos criar um método alternativo para Text legacy
+                    Debug.Log("Usando Text Legacy - considere usar TextMeshPro");                    
                 }
                 else
                 {
@@ -66,42 +73,39 @@ public class NPCBehavior : MonoBehaviour
             continueButton = messagePanel.GetComponentInChildren<Button>();
             if (continueButton != null)
             {
-                Debug.Log("Botão encontrado!");
-                // Configura o botão para esconder o painel quando clicado
+                Debug.Log("Botão encontrado e configurado!");
                 continueButton.onClick.RemoveAllListeners();
-                continueButton.onClick.AddListener(HideMessage);
+                continueButton.onClick.AddListener(() => {
+                    Debug.Log("Botão clicado - escondendo mensagem");
+                    HideMessage();
+                });
             }
             else
             {
                 Debug.LogError("Botão não encontrado no MessagePanel!");
             }
 
-            // Garante que o painel comece escondido
-            messagePanel.SetActive(false);
             Debug.Log("UI configurada com sucesso!");
+            uiReferencesSet = true;
         }
         else
         {
             Debug.LogError("MessagePanel não encontrado! Verificando nomes na hierarquia...");
-
-            // Debug extra para ver todos os GameObjects da cena
             GameObject[] allObjects = FindObjectsOfType<GameObject>();
             Debug.Log("GameObjects encontrados na cena:");
             foreach (GameObject obj in allObjects)
             {
-                if (obj.name.Contains("Panel") || obj.name.Contains("Message"))
+                if (obj.name.Contains("Panel") || obj.name.Contains("Message") || obj.name.Contains("Canvas"))
                 {
-                    Debug.Log($"- Objeto encontrado: {obj.name}");
+                    Debug.Log($"- Objeto encontrado: {obj.name} (ativo: {obj.activeInHierarchy})");
                 }
             }
+            uiReferencesSet = false;
         }
-
-        uiReferencesSet = true;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        // Verifica se quem tocou foi o detetive (player)
         if (other.CompareTag("Player"))
         {
             if (isThief)
@@ -118,9 +122,7 @@ public class NPCBehavior : MonoBehaviour
     void OnThiefCaught()
     {
         Debug.Log("Parabéns! Você pegou o ladrão!");
-
         ShowMessage("PARABÉNS! VOCÊ PEGOU O LADRÃO!", Color.green);
-
         // Após 3 segundos, volta para o menu principal
         StartCoroutine(ReturnToMainMenuAfterDelay(3f));
     }
@@ -128,7 +130,6 @@ public class NPCBehavior : MonoBehaviour
     void OnInnocentTouched()
     {
         Debug.Log("Este personagem é inocente!");
-
         ShowMessage("ESTE PERSONAGEM É INOCENTE!", Color.red);
     }
 
@@ -145,7 +146,6 @@ public class NPCBehavior : MonoBehaviour
             messageText.text = message;
             messageText.color = color;
             messagePanel.SetActive(true);
-
             Debug.Log($"<color=#{ColorUtility.ToHtmlStringRGB(color)}>{message}</color>");
         }
         else
@@ -161,6 +161,11 @@ public class NPCBehavior : MonoBehaviour
         if (messagePanel != null)
         {
             messagePanel.SetActive(false);
+            Debug.Log("Mensagem escondida!");
+        }
+        else
+        {
+            Debug.LogWarning("Tentou esconder mensagem, mas messagePanel é null!");
         }
     }
 }
