@@ -4,49 +4,68 @@ using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
-    Rigidbody2D rb2d; 
-    Vector2 input;
-    public float speed = 2f;
-    public float jumpForce = 5f;
+    Rigidbody2D rb2d;
+    Animator animator;
+    Vector2 inputMove;
+    InputAction moveAction;
+    InputAction jumpAction;
+    PlayerInput playerInput;
+    [SerializeField] float speed = 2f;
+    [SerializeField] float jumpForce = 5f;
     bool onGround;
     bool onRamp;
-
+    
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+        playerInput = GetComponent<PlayerInput>();
+
+        moveAction = playerInput.actions["Move"];
+        jumpAction = playerInput.actions["Jump"];
+        jumpAction.performed += OnJumpPerformed;
+
     }
+
+    private void OnJumpPerformed(InputAction.CallbackContext context)
+    {
+        if (!onGround && !onRamp) return;
+        rb2d.linearVelocityY = jumpForce;
+    }
+
     void Update()
     {
-        rb2d.linearVelocityX = input.x * speed;
+        inputMove = moveAction.ReadValue<Vector2>();
+
+        animator.SetFloat("inputMoveX", Mathf.Abs(inputMove.x));
+        animator.SetFloat("velocityY", rb2d.linearVelocityY);
+    }
+
+    void FixedUpdate()
+    {
+        rb2d.linearVelocityX = inputMove.x * speed; 
     }
 
     public void OnMove(InputValue value)
     {
-        input = value.Get<Vector2>();
-        if (input.x == 0.0) return;
+        inputMove = value.Get<Vector2>();
+        if (inputMove.x == 0.0) return;
         
-        int faceDirection = input.x > 0 ? 1 : -1;
+        int faceDirection = inputMove.x > 0 ? 1 : -1;
         SetFaceDirection(faceDirection);
-        Debug.Log("Moving: " + input);
+        Debug.Log("Moving: " + inputMove);
     }
-
-    public void OnJump(InputValue value)
-    {
-        if (!onGround && !onRamp) return;
-
-        Debug.Log("Jumped");
-        rb2d.linearVelocityY = jumpForce;
-    }
-
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground"))
         {
             onGround = true;
+            animator.SetBool("isGrounded", true);
         }
         if (collision.gameObject.CompareTag("Ramps"))
         {
             onRamp = true;
+            animator.SetBool("isGrounded", true);
         }
     }
 
@@ -55,10 +74,12 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             onGround = false;
+            animator.SetBool("isGrounded", false);
         }
         if (collision.gameObject.CompareTag("Ramps"))
         {
             onRamp = false;
+            animator.SetBool("isGrounded", false);
         }
     }
 
